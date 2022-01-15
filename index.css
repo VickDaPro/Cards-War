@@ -64,3 +64,11 @@ div.top > p {
   margin: 0;
   margin-left: 10px;
 }
+
+#remaining {
+  font-size: 1.2em;
+}
+
+button:disabled {
+  cursor: not-allowed;
+}
