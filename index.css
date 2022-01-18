@@ -3,16 +3,8 @@ body {
   margin: 0;
   padding: 0;
   background-image: url("img/table.png");
-  background-repeat: no-repeat;
-  background-size: cover;
   font-family: "Exo 2", sans-serif;
   height: 100vh;
-}
-
-button#new-deck {
-  font-size: larger;
-  align-self: flex-start;
-  padding: 5px;
 }
 
 body {
@@ -23,19 +15,20 @@ body {
   color: white;
 }
 
-#header {
-  font-size: 2em;
-}
-
 button {
   background-color: #fff100;
   cursor: pointer;
   border: none;
 }
 
+button#new-deck {
+  align-self: flex-start;
+  padding: 5px;
+}
+
 button.draw {
-  font-size: 1.5em;
-  padding: 10px;
+  font-size: 1.2em;
+  padding: 5px;
   align-self: stretch;
 }
 
@@ -47,7 +40,7 @@ div.card-slot {
 }
 
 div.card-slot:nth-of-type(1) {
-  margin-bottom: 50px;
+  margin-bottom: 10px;
 }
 
 img.card {
@@ -57,6 +50,7 @@ img.card {
 
 div.top {
   display: flex;
+  align-items: flex-start;
   align-self: flex-start;
 }
 
@@ -65,10 +59,10 @@ div.top > p {
   margin-left: 10px;
 }
 
-#remaining {
-  font-size: 1.2em;
-}
-
 button:disabled {
   cursor: not-allowed;
+}
+
+h2 {
+  margin: 10px;
 }
